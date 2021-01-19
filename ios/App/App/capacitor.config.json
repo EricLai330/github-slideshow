@@ -1,0 +1,26 @@
+{
+  "appId": "com.aci.DSIM2",
+  "appName": "aci_dsim_ios",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "true",
+      "android-minSdkVersion": "22",
+      "AndroidXEnabled": "true",
+      "BackupWebStorage": "none",
+      "AutoHideSplashScreen": "true",
+      "SplashMaintainAspectRatio": "false",
+      "SplashShowOnlyFirstTime": "false",
+      "SplashScreen": "none",
+      "SplashScreenDelay": "0",
+      "FadeSplashScreenDuration": "0"
+    }
+  }
+}
