@@ -1,0 +1,73 @@
+{
+  "TABS": {
+    "title": "ACI DSIMs"
+    },
+  "TAB1": {
+    "title": "Principal",
+    "connection": "Connexion",
+    "bluetooth": "Bluetooth",
+    "basic": "De base",
+    "typeno": "Type Non:",
+    "partno": "No de pièce:",
+    "location": "la localisation:",
+    "dsimmode": "DSIM Mode:",
+    "currentpilot": "Pilote actuel:",
+    "loginterval": "Intervalle de journalisation:",
+    "alarm": "Alarme",
+    "rfpilotlevel": "RF Niveau pilote",
+    "temperature": "Température",
+    "powersupply": "Source de courant"
+    },
+  "TAB2": {
+    "title": "Information"
+    },
+  "TAB3": {
+    "title": "Réglage",
+    "location":"la localisation:",
+    "userpilot":"Pilote utilisateur:",
+    "userpilot2":"Pilote utilisateur 2:",
+    "loginterval":"Intervalle de journalisation:",
+    "apatt":"AGC PREP atténuateur:",
+    "tgccl":"TGC longueur de câble:",
+    "newcode":"Nouveau code",
+    "workingmode":"Mode de fonctionnement:"
+    },
+  "TAB4": {
+    "title": "Télécharger",
+    "dsimdata": "DSIM Les données",
+    "showchart": "Afficher le graphique",
+    "showtable": "Afficher la table",
+    "sendfile": "Envoyer le fichier",
+    "emaildata": "Données e-mail"
+    },
+  "TOASTes": "Email envoyé",
+  "TOASTsf": "Échec du réglage",
+  "TOASTs1": "Ensemble ",
+  "TOASTs2": " Mode",
+  "TOASTg0": "Passer en mode AGC. Pilote",
+  "TOASTg1": "S'il vous plaît, attendez.",
+  "TOASTg2": "Pilote accepté",
+  "TOASTg3": "Pilote introuvable, veuillez vérifier le réglage de l'amplificateur",  
+  "TOASTg4": "alignement échoué",
+  "TOASTls": "Jeu d'intervalle de journalisation",
+  "TOASTas": "Ensemble atténuateur",
+  "TOASTtcs": "TGC Ensemble de longueur de câble",
+  "TOASTns": "Nouvel ensemble de lieux",
+  "TOASTdc": "Téléchargement terminé",
+  "TOASTpn": "Pilote introuvable,Veuillez saisir le code correct",
+  "MESSAGEdl": "Téléchargement...",
+  "MESSAGEhat": "Résiliation de l'application",
+  "MESSAGEdyw": "Voulez-vous quitter l'application?",
+  "MESSAGEstay": "Rester",
+  "MESSAGEexit": "Sortie",
+  "MESSAGEtabd": "Le dongle Bluetooth ACI s'est déconnecté de manière inattendue",
+  "MESSAGErcbd": "Reconnecter le dongle Bluetooth?",
+  "MESSAGEdct": "DSIM délai de connection dépassé",
+  "MESSAGEcdsim": "de liaison DSIM...",
+  "MESSAGErcta": "Se reconnecter?",
+  "MESSAGEpd": "Préparez les données...",
+  "MESSAGErct": "Reconnecter",
+  "SCAN": "Analyse...",
+  "SR": "Résultat de scanner",
+  "NABDF": "Aucun dongle Bluetooth ACI trouvé"
+}

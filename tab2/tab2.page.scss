@@ -1,0 +1,57 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+ion-content {
+  --background: var(--ion-color-light);
+}
+
+.accordion-list {
+  margin-bottom: 2px;
+  --ion-item-background: #fff;
+
+  .section, .section-active {
+    --min-height: 20px;
+  }
+}
+
+.section {
+  --ion-item-background: #fff;
+  --ion-item-color: #000;
+}
+.section-active {
+  --ion-item-background: #223e55;
+  --ion-item-color: #fff;
+  font-weight: 600;
+
+  ion-icon {
+    color: #fff;
+  }
+}
+
+.child-list {
+  padding: 0;
+  margin: 0;
+  .child, .child-active {
+    margin-bottom: 2px;
+  }
+}
+
+.child {
+  --ion-item-background: #fff;
+  --ion-item-color: #000;
+}
+
+.child-active {
+  --ion-item-background: #456957;
+  --ion-item-color: #fff;
+
+  ion-icon {
+    color: #fff;
+  }
+}
+
+.product-list {
+  padding: 0;
+  margin: 0;
+}

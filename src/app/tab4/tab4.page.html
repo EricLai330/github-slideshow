@@ -1,0 +1,56 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ 'TAB4.title' | translate }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding scrollX="true" scrollY="true" scrollbar-x="true" scrollbar-y="true">
+
+  <ion-list-header>
+    <ion-label>{{ 'TAB4.dsimdata' | translate }}</ion-label>
+  </ion-list-header>
+  
+        <ion-grid>
+          <ion-row>
+              <ion-col>
+                <ion-button class="btn-14" expand="full"  (click)="downloadDSIMData()">{{ 'TAB4.showchart' | translate }}</ion-button>
+                <ion-button class="btn-24" expand="full"  (click)="showCSV()" >{{ 'TAB4.showtable' | translate }}</ion-button> 
+                <ion-button class="btn-34" expand="full"  (click)="sendData()" >{{ 'TAB4.sendfile' | translate }}</ion-button>
+                <ion-button class="btn-44" expand="full"  (click)="sendEmail()" >{{ 'TAB4.emaildata' | translate }}</ion-button>              </ion-col>
+          </ion-row>
+        </ion-grid>
+  
+  <div [hidden]= hideChart class="chart-container" > 
+  <canvas baseChart 
+    [datasets]="chartData" 
+    [labels]="chartLabels" 
+    [options]="chartOptions" 
+    [colors]="chartColors"
+    [legend]="showLegend" 
+    [chartType]="chartType">
+  </canvas>
+  <canvas baseChart
+    [datasets]="chartData4" 
+    [labels]="chartLabels" 
+    [options]="chartOptions4" 
+    [colors]="chartColors"
+    [legend]="showLegend" 
+    [chartType]="chartType">
+  </canvas>
+  </div>
+
+  <div [hidden]= hideCSV >
+      <table border="1" class="data-table">
+        <tr>
+          <td *ngFor="let header of headerRow" text-center><b>{{ header }}</b></td>
+        </tr>
+        <tr *ngFor="let row of csvData; let i = index">
+          <td *ngFor="let data of row; let j = index" class="data-col ">
+            {{ csvData[i][j] }}
+          </td>
+        </tr>
+      </table>
+  </div>
+  </ion-content>

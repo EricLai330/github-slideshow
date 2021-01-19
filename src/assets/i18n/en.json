@@ -1,0 +1,73 @@
+{
+  "TABS": {
+    "title": "ACI DSIMs"
+    },
+  "TAB1": {
+    "title": "Main",
+    "connection": "Connection",
+    "bluetooth": "Bluetooth",
+    "basic": "Basic",
+    "typeno": "Type No:",
+    "partno": "Part No:",
+    "location": "Location:",
+    "dsimmode": "DSIM Mode:",
+    "currentpilot": "Current Pilot:",
+    "loginterval": "Log interval:",
+    "alarm": "Alarm",
+    "rfpilotlevel": "RF Pilot Level",
+    "temperature": "Temperature",
+    "powersupply": "Power Supply"
+    },
+  "TAB2": {
+    "title": "Information"
+    },
+  "TAB3": {
+    "title": "Setting",
+    "location":"Location:",
+    "userpilot":"User Pilot:",
+    "userpilot2":"2nd User Pilot:",
+    "loginterval":"Log interval:",
+    "apatt":"AGC PREP attenuator:",
+    "tgccl":"TGC cable length:",
+    "newcode":"New code",
+    "workingmode":"Working mode:"
+    },
+  "TAB4": {
+    "title": "Download",
+    "dsimdata": "DSIM Data",
+    "showchart": "Show Chart",
+    "showtable": "Show Table",
+    "sendfile": "Send File",
+    "emaildata": "Email Data"
+    },
+  "TOASTes": "Email sent",
+  "TOASTsf": "Setting failed",
+  "TOASTs1": "Set ",
+  "TOASTs2": " Mode",
+  "TOASTg0": "Going the AGC mode. Pilot",
+  "TOASTg1": " Please wait.",
+  "TOASTg2": "Pilot accepted",
+  "TOASTg3": "Pilot not found,Please check amplifier setting",
+  "TOASTg4": "Align failed",
+  "TOASTls": "Log Interval Set",
+  "TOASTas": "Attenuator set",
+  "TOASTtcs": "TGC Cable Length Set",
+  "TOASTns": "New Location Set",
+  "TOASTdc": "Download completed",
+  "TOASTpn": "Pilot not found,Please type correct code",
+  "MESSAGEdl": "Downloading...",
+  "MESSAGEhat": "App termination",
+  "MESSAGEdyw": "Do you want to exit the app?",
+  "MESSAGEstay": "Stay",
+  "MESSAGEexit": "Exit",
+  "MESSAGEtabd": "The ACI Bluetooth dongle unexpectedly disconnected",
+  "MESSAGErcbd": "Reconnect Bluetooth Dongle?",
+  "MESSAGEdct": "DSIM connection timeout",
+  "MESSAGEcdsim": "connecting DSIM...",
+  "MESSAGErcta": "Reconnect again?",
+  "MESSAGEpd": "Prepare data...",
+  "MESSAGErct": "Reconnect",
+  "SCAN": "Scan...",
+  "SR": "Scan result",
+  "NABDF": "No ACI Bluetooth dongle found"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "dsimapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

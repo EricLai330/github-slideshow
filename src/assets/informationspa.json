@@ -1,0 +1,100 @@
+{
+    "items": [
+        {
+            "name": "Básico",
+            "children": [
+                {
+                    "name": "Información",
+                    "children": [
+                        {
+                            "name": "número de serie: "
+                        },
+                        {
+                            "name": "Versión del software: "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Atenuación",
+            "children": [
+                {
+                    "name": "Rango",
+                    "children": [
+                        {
+                            "name": "Posición actual: "
+                        },
+                        {
+                            "name": "Mínimo: "
+                        },
+                        {
+                            "name": "Centrar: "
+                        },
+                        {
+                            "name": "Máximo: "
+                        }
+                    ]
+                },
+                {
+                    "name": "Posición",
+                    "children": [
+                        {
+                            "name": "Mínimo: "
+                        },
+                        {
+                            "name": "Máximo: "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Temperatura(°F)/(°C)",
+            "children": [
+                {
+                    "name": "Actual: "
+                },
+                {
+                    "name": "Mínimo: "
+                },
+                {
+                    "name": "Máximo: "
+                }
+            ]
+        },
+        {
+            "name": "Fuente de alimentación VDC",
+            "children": [
+                {
+                    "name": "Nivel de voltaje(V)",
+                    "children": [
+                        {
+                            "name": "Actual: "
+                        },
+                        {
+                            "name": "Mínimo: "
+                        },
+                        {
+                            "name": "Máximo: "
+                        }
+                    ]
+                },
+                {
+                    "name": "Ondulación de voltaje(mV)",
+                    "children": [
+                        {
+                            "name": "Actual: "
+                        },
+                        {
+                            "name": "Mínimo: "
+                        },
+                        {
+                            "name": "Máximo: "
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

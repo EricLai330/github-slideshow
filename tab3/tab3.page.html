@@ -1,0 +1,120 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ 'TAB3.title' | translate }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+      <ion-label position="stacked">{{ 'TAB3.location' | translate }} {{chosenlocation}}</ion-label>
+      <ion-button slot="end" expand="full" (click)="setLocation()" [disabled]="(chosenlocation == this.global.basicLocation) ||(chosenlocation == '')">
+        <ion-icon slot="start" name="settings"></ion-icon>
+        SET
+      </ion-button>
+        <ion-row>
+        <ion-input type="text" maxlength="60" [(ngModel)]="chosenlocation" ></ion-input>
+        </ion-row>
+    </ion-item>
+
+    <ion-item >
+      <ion-label position="stacked">{{ 'TAB3.workingmode' | translate }} {{this.global.chosenWorkString}}</ion-label>
+      <ion-button slot="end" expand="full" (click)="setWorkMode()" [disabled]="(this.global.chosenWork == this.global.basicModeID)">
+        <ion-icon slot="start" name="settings"></ion-icon>
+        SET
+      </ion-button>
+      <ion-grid>
+        <ion-row>
+            <ion-col>
+              <ion-button class="btn-3" expand="full" [color]="this.global.chosenWork == 4 ? 'success' : 'light'" (click)=changeWorkMode(4)>MGC</ion-button> 
+              <ion-button class="btn-1" expand="full" [color]="this.global.chosenWork == 2 ? 'success' : 'light'" (click)=changeWorkMode(2)>AGC</ion-button>
+              <ion-button class="btn-2" expand="full" [color]="this.global.chosenWork == 3 ? 'success' : 'light'" (click)=changeWorkMode(3)>TGC</ion-button>   
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item >
+      <ion-label position="floating">{{ 'TAB3.userpilot' | translate }} {{chosenCodeFull}}</ion-label>
+      <ion-button slot="end" expand="full" (click)="setNewCode()" [disabled]="((chosenCode == '')||(chosenCode == this.global.basicCP))">
+        <ion-icon slot="start" name="settings"></ion-icon>
+        SET
+      </ion-button>
+      <ion-grid>
+        <ion-row>
+          <ion-input class="input-size" type="text" [(ngModel)]="newcode"></ion-input>
+          <ion-button expand="full" (click)="searchCode()">
+            <ion-icon slot="end" name="search"></ion-icon>
+          </ion-button>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <div [hidden]= !this.global.bDuel>
+      <ion-item >
+        <ion-label position="floating">{{ 'TAB3.userpilot2' | translate }} {{chosenCodeFull2}}</ion-label>
+        <ion-button slot="end" expand="full" (click)="setNewCode2()" [disabled]="((chosenCode2 == '')||(chosenCode2 == defaultCode2))">
+          <ion-icon slot="start" name="settings"></ion-icon>
+          SET
+        </ion-button>
+        <ion-grid>
+          <ion-row>
+            <ion-input class="input-size" type="text" [(ngModel)]="newcode2" ></ion-input>
+            <ion-button expand="full" (click)="searchCode2()">
+              <ion-icon slot="end" name="search"></ion-icon>
+            </ion-button>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </div>
+
+
+    <ion-item >
+      <ion-label position="stacked" >{{ 'TAB3.loginterval' | translate }} {{chosenLogString}}</ion-label>
+      <ion-button slot="end" expand="full" (click)="setLogInterval()" [disabled]="(chosenLog  == this.global.basicIntervalID)">
+        <ion-icon slot="start" name="settings"></ion-icon>
+        SET
+      </ion-button>
+      <ion-select (ionChange)="intervalChange()"  class="input1" [(ngModel)]="chosenLogString" >
+          <ion-select-option *ngFor="let interval of intervals">{{interval.list}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item >
+      <ion-label position="stacked" >{{ 'TAB3.apatt' | translate }} {{chosenAtt}}</ion-label>
+      <ion-grid>
+        <ion-row>
+            <ion-col>
+              <ion-button class="btn-10" expand="full" (click)=plusAtt()><b>+</b></ion-button>
+              <ion-button class="btn-20" expand="full" (click)=centerAtt()><b>0</b></ion-button> 
+              <ion-button class="btn-30" expand="full" (click)=minusAtt()><b>-</b></ion-button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-button class="btn-a" expand="full" (click)=maxAtt()><b>MAX</b></ion-button>
+            <ion-button class="btn-b" expand="full" (click)=minAtt()><b>MIN</b></ion-button> 
+          </ion-col>
+      </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item >
+      <ion-label position="stacked" >{{ 'TAB3.tgccl' | translate }} {{chosenCable}}</ion-label>
+      <ion-button slot="end" expand="full" (click)="setCL()" [disabled]="(chosenCable == this.global.basicCableLengthID)">
+        <ion-icon slot="start" name="settings"></ion-icon>
+        SET
+      </ion-button>
+      <ion-grid>
+        <ion-row>
+            <ion-col>
+              <ion-button class="btn-1" expand="full" [color]="chosenCable == 9 ? 'success' : 'light'" (click)=changeCL(9)>9</ion-button>
+              <ion-button class="btn-2" expand="full" [color]="chosenCable == 18 ? 'success' : 'light'" (click)=changeCL(18)>18</ion-button> 
+              <ion-button class="btn-3" expand="full" [color]="chosenCable == 27 ? 'success' : 'light'" (click)=changeCL(27)>27</ion-button>
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+</ion-content>
+

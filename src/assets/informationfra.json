@@ -1,0 +1,100 @@
+{
+    "items": [
+        {
+            "name": "de base",
+            "children": [
+                {
+                    "name": "Info",
+                    "children": [
+                        {
+                            "name": "Numéro de série: "
+                        },
+                        {
+                            "name": "Une version de logiciel: "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Atténuation",
+            "children": [
+                {
+                    "name": "Gamme",
+                    "children": [
+                        {
+                            "name": "Position actuelle: "
+                        },
+                        {
+                            "name": "Le minimum: "
+                        },
+                        {
+                            "name": "Centre: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                },
+                {
+                    "name": "Position",
+                    "children": [
+                        {
+                            "name": "Le minimum: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Température(°F)/(°C)",
+            "children": [
+                {
+                    "name": "Actuel: "
+                },
+                {
+                    "name": "Le minimum: "
+                },
+                {
+                    "name": "Maximum: "
+                }
+            ]
+        },
+        {
+            "name": "Alimentation VDC",
+            "children": [
+                {
+                    "name": "Niveau de tension(V)",
+                    "children": [
+                        {
+                            "name": "Actuel: "
+                        },
+                        {
+                            "name": "Le minimum: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                },
+                {
+                    "name": "Ondulation de tension(mV)",
+                    "children": [
+                        {
+                            "name": "Actuel: "
+                        },
+                        {
+                            "name": "Le minimum: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

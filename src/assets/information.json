@@ -1,0 +1,100 @@
+{
+    "items": [
+        {
+            "name": "Basic",
+            "children": [
+                {
+                    "name": "Info",
+                    "children": [
+                        {
+                            "name": "S/N: "
+                        },
+                        {
+                            "name": "S/W version: "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Attenuation",
+            "children": [
+                {
+                    "name": "Range",
+                    "children": [
+                        {
+                            "name": "Current Position: "
+                        },
+                        {
+                            "name": "Minimum(cold): "
+                        },
+                        {
+                            "name": "Center: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                },
+                {
+                    "name": "Position",
+                    "children": [
+                        {
+                            "name": "Minimum: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Temperature(°F)/(°C)",
+            "children": [
+                {
+                    "name": "Current: "
+                },
+                {
+                    "name": "Minimum: "
+                },
+                {
+                    "name": "Maximum: "
+                }
+            ]
+        },
+        {
+            "name": "Power Supply VDC",
+            "children": [
+                {
+                    "name": "Voltage Level(V)",
+                    "children": [
+                        {
+                            "name": "Current: "
+                        },
+                        {
+                            "name": "Minimum: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                },
+                {
+                    "name": "Voltage Ripple(mV)",
+                    "children": [
+                        {
+                            "name": "Current: "
+                        },
+                        {
+                            "name": "Minimum: "
+                        },
+                        {
+                            "name": "Maximum: "
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+electron-packager . KCApp --overwrite --platform=win32 --arch=x64 --prune=true  --out=release-win --asar=true

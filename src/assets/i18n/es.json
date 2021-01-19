@@ -1,0 +1,73 @@
+{
+  "TABS": {
+    "title": "ACI DSIMs"
+    },
+  "TAB1": {
+    "title": "Principal",
+    "connection": "Conexión",
+    "bluetooth": "Bluetooth",
+    "basic": "Básico",
+    "typeno": "Tipo No:",
+    "partno": "Parte No:",
+    "location": "Ubicación:",
+    "dsimmode": "DSIM Modo:",
+    "currentpilot": "Piloto actual:",
+    "loginterval": "Intervalo de registro:",
+    "alarm": "Alarma",
+    "rfpilotlevel": "RF Nivel piloto",
+    "temperature": "Temperatura",
+    "powersupply": "Fuente de alimentación"
+    },
+  "TAB2": {
+    "title": "Información"
+    },
+  "TAB3": {
+    "title": "Ajuste",
+    "location":"Ubicación:",
+    "userpilot":"Piloto de usuario:",
+    "userpilot2":"Piloto de usuario 2:",
+    "loginterval":"Intervalo de registro:",
+    "apatt":"AGC PREP atenuador:",
+    "tgccl":"TGC longitud del cable:",
+    "newcode":"Nuevo código",
+    "workingmode":"Modo de trabajo:"
+    },
+  "TAB4": {
+    "title": "Descargar",
+    "dsimdata": "DSIM Datos",
+    "showchart": "Mostrar gráfico",
+    "showtable": "Mostrar tabla",
+    "sendfile": "Enviar archivo",
+    "emaildata": "Datos de correo electrónico"
+    },
+  "TOASTes": "Email enviado",
+  "TOASTsf": "Configuración fallida",
+  "TOASTs1": "Conjunto ",
+  "TOASTs2": " Modo",
+  "TOASTg0": "Pasando al modo AGC. Piloto",
+  "TOASTg1": "Por favor espera.",
+  "TOASTg2": "Piloto aceptado",
+  "TOASTg3": "Piloto no encontrado, compruebe la configuración del amplificador",
+  "TOASTg4": "alineación fallida",
+  "TOASTls": "Conjunto de intervalo de registro",
+  "TOASTas": "Conjunto de atenuador",
+  "TOASTtcs": "TGC Conjunto de longitud de cable",
+  "TOASTns": "Nuevo conjunto de ubicación",
+  "TOASTdc": "Descarga completa",
+  "TOASTpn": "Piloto no encontrado,Escriba el código correcto",
+  "MESSAGEdl": "Descargando...",
+  "MESSAGEhat": "Terminación de la aplicación",
+  "MESSAGEdyw": "¿Quieres salir de la aplicación?",
+  "MESSAGEstay": "Permanecer",
+  "MESSAGEexit": "Salida",
+  "MESSAGEtabd": "El dongle Bluetooth ACI se desconectó inesperadamente",
+  "MESSAGErcbd": "¿Volver a conectar la llave Bluetooth?",
+  "MESSAGEdct": "DSIM el tiempo de conexión expiro",
+  "MESSAGEcdsim": "conectando DSIM...",
+  "MESSAGErcta": "¿Volver a conectar?",
+  "MESSAGEpd": "Preparar datos...",
+  "MESSAGErct": "Reconectar",
+  "SCAN": "Escanear...",
+  "SR": "Resultado de la exploracion",
+  "NABDF": "No se encontró ninguna llave Bluetooth ACI"
+}
