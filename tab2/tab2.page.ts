@@ -20,6 +20,8 @@ export class Tab2Page {
     private http: HttpClient) 
     {
       let langChoice = this.translate.getBrowserLang();
+      let a=1;
+      a +=1;11
       if( (langChoice!='en')&&(langChoice!='es')&&(langChoice!='fr')&&(langChoice!='zh') )
           langChoice='en';
       console.log('langChoice=',langChoice);
